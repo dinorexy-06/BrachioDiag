@@ -1,0 +1,53 @@
+# ==============================================================================
+# .gitignore - Reglas de exclusión para BrachioDiag (Python / Windows)
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Configuraciones de editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos específicos del sistema operativo
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Directorio de trabajo y reportes generados en tiempo de ejecución
+BrachioDiag_Workspace/
+
+# Carpetas de respaldo o temporales
+respaldo_*/
+*.bak
+*.tmp
+*.old
+
+# Empaquetado / PyInstaller
+dist/
+build/
+*.spec
+
